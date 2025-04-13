@@ -1,0 +1,1 @@
+router.post('/upload-marks', verifyToken, verifyFaculty, FacultyController.uploadMarks);

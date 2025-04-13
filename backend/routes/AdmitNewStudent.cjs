@@ -1,0 +1,1 @@
+router.post('/admit-student', verifyToken, verifyFaculty, FacultyController.admitStudent);

@@ -1,0 +1,1 @@
+router.get('/marks', verifyToken, StudentController.viewMarks);

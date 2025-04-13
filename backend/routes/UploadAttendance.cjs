@@ -1,0 +1,1 @@
+router.post('/upload-attendance', verifyToken, verifyFaculty, FacultyController.uploadAttendance);

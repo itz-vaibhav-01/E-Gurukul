@@ -1,0 +1,1 @@
+router.post('/face-verify', verifyToken, verifyHOD, HODController.faceVerify);

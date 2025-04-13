@@ -1,0 +1,1 @@
+router.get('/attendance', verifyToken, StudentController.viewAttendance);

@@ -1,0 +1,1 @@
+router.get('/students', verifyToken, verifyHOD, HODController.getAllStudents);
